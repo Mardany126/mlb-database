@@ -1,0 +1,31 @@
+{
+  "name": "mlb-database",
+  "version": "1.0.0",
+  "description": "## Instructions In the initial commit to this project you have been provided with data about the stats accumulated by MLB players on a single day of games. You are tasked with creating an Entity Relationship Diagram in [Lucidchart](https://www.lucidchart.com/) to represent a normalized database design for storing this data. When you have completed your chart create a PNG image of it (File -> Export -> PNG) and save it to your repo.",
+  "main": "index.js",
+  "scripts": {
+    "dev":"./node_modules/.bin/nodemon index.js",
+    "lint": ".node_modules/.bin/eslint --format codeframe .",
+    "lint:fix": "./node_modules/.bin/eslint --fix --format codeframe .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mardany126/mlb-database.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mardany126/mlb-database/issues"
+  },
+  "homepage": "https://github.com/Mardany126/mlb-database#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "nodemon": "^2.0.7"
+  }
+}
